@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>EconomTaxi - Select</title>
+        <link rel="icon" type="image/x-icon" href="./favicon.png">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            main.et-main {
+                background-color: var(--yellow);
+                padding: 40px 0;
+                background-image: url(./assets/bg_auth.png);
+                background-repeat: no-repeat;
+                background-position: center bottom;
+            }
+            .et-inner{
+                height: calc(100vh - 80px);
+            }
+            .et-top_part {
+                width: 100%;
+                padding-top: 25px;
+            }
+            .et-top_part img {
+                max-width: 100px;
+                filter: brightness(1.5);
+            }
+            .et-top_part h1 {
+                width: 100%;
+                text-align: center;
+                font-size: 22px;
+                font-weight: 500;
+                margin: 15px;
+            }
+            .et-bottom_part {
+                width: 280px;
+                row-gap: 10px;
+                margin: 0 auto;
+            }
+            .et-bottom_part h2 {
+                margin: 0 0 10px;
+                font-size: 26px;
+                font-weight: normal;
+                text-align: center;
+            }
+            .et-bp_auth-link {
+                width: 100%;
+                text-align: center;
+                padding: 15px 10px;
+                border-radius: 35px;
+                border: 1px solid #000;
+                color: #000;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Main Section -->
+        <main class="et-main">
+            <div class="et-container">
+                <div class="et-row et-inner et-alc-sb">
+                    <div class="et-top_part et-dfw et-jc-center">
+                        <img src="./assets/logo.png" alt="Logo">
+                        <h1>Econom<b>Taxi</b></h1>
+                    </div>
+                    <div class="et-bottom_part et-dfw et-jc-center">
+                        <h2>Добро пожаловать в <b>EconomTaxi</b></h2>
+                        <a class="et-bp_auth-link" href="./src/driver/auth.html">Я водитель</a>
+                        <a class="et-bp_auth-link" href="./src/passenger/auth.html">Я пассажир</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Main Section End -->
+
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>
