@@ -1,0 +1,144 @@
+header {
+    background-color: var(--yellow);
+    position: relative;
+    padding: 70px 0 50px;
+}
+header::before, header::after {
+    content: "";
+    position: absolute;
+    bottom: -10%;
+    border-radius: 70%;
+    height: 90px;
+    width: 70%;
+    background-color: var(--yellow);
+}
+header::before {
+    width: 70%;
+    left: -15px;
+    z-index: -1;
+}
+header::after {
+    background: white;
+    right: -30%;
+    left: auto;
+    bottom: -25%;
+}
+.et-topbar {
+    width: 100%;
+}
+.et-topbar a svg {
+    width: 20px;
+    height: 50px;
+}
+.et-topbar a svg path {
+    fill: black;
+}
+.et-topbar h4 {
+    margin: 0;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: calc(100% - 20px);
+}
+.et-mark_icons {
+    width: 40%;
+}
+.et-mark_icons svg {
+    height: 100px;
+}
+.et-mark_icons svg path {
+    fill: white;
+}
+.et-text {
+    width: 60%;
+    padding-left: 10%;
+    color: white;
+    font-size: 14px;
+}
+main.et-main {
+    padding-bottom: 20px !important;
+}
+.et-login, .et-login_with {
+    width: 100%;
+    row-gap: 20px;
+    padding: 0 15px;
+}
+.et-login label{
+    width: 100%;
+}
+.et-login span {
+    font-size: 12px;
+    color: black;
+    width: 100%;
+}
+.et-login input {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    border: none;
+    border-bottom: 1px solid var(--gray);
+    outline: none;
+    transition: all .4s ease;
+}
+.et-login input[type="password"]{
+    letter-spacing: 3px
+}
+.et-login input:focus{
+    border-bottom: 1px solid var(--yellow);
+}
+.et-login .et-btn[type="submit"], .et-login_with .et-btn {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    background-color: var(--yellow);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.et-or {
+    font-size: 18px;
+    margin: 20px;
+}
+.et-login_with .et-btn {
+    text-align: left;
+    margin: 0;
+    column-gap: 15px;
+}
+.et-login_with span{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: normal;
+    width: calc(100% - 35px);
+}
+.et-login_with .et-btn.google {
+    background-color: var(--light-red);
+}
+.et-login_with .et-btn.facebook {
+    background-color: var(--blue);
+}
+.et-login_with .et-btn svg {
+    height: 20px;
+    width: 20px;
+}
+.et-login_with .et-btn svg path {
+    fill: white;
+}
+.et-if_no {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.et-if_no a {
+    color: var(--yellow);
+    margin-left: 5px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>EconomTaxi - Чат</title>
+        <link rel="icon" type="image/x-icon" href="../../favicon.png">
+        <link rel="stylesheet" href="./css/chat-in.css">
+        <link rel="stylesheet" href="../../style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="et-nav">
+                <div class="et-container">
+                    <div class="et-row">
+                        <div class="et-topbar et-dfw et-alt-center">
+                            <a class="et-go_back">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512">
+                                    <path fill="currentColor" d="M25.1 247.5l117.8-116c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L64.7 256l102.2 100.4c4.7 4.7 4.7 12.3 0 17l-7.1 7.1c-4.7 4.7-12.3 4.7-17 0L25 264.5c-4.6-4.7-4.6-12.3.1-17z" class=""></path>
+                                </svg>
+                            </a>
+                            <h4>Чат</h4>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Main Section -->
+        <main class="et-main">
+            <div class="et-container">
+                <div class="et-row">
+                    <div class="et-chat-overlay">
+                        <ul class="et-cho_dialog-list et-dfw">
+                            <li class="et-chodl_item et-dfw companion">
+                                <div class="et-chodli_avatar">
+                                    <img src="../../../assets/defaults/driver_1.jpg" alt="">
+                                </div>
+                                <div class="et-chodli_message">
+                                    <p id="message">Lorem ipsum dolor sit!</p>
+                                </div>
+                            </li>
+                            <li class="et-chodl_item et-dfw me">
+                                <div class="et-chodli_message">
+                                    <p id="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis temporibus dolores dicta, sit sunt atque praesentium eveniet, laudantium accusantium repudiandae, enim nemo error. Placeat laborum nisi earum eius eum recusandae?</p>
+                                </div>
+                                <div class="et-chodli_avatar">
+                                    <img src="../../../assets/defaults/user_1.jpg" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="et-cho_bottom_bar et-dfw">
+                            <label class="et-ch_file">
+                                <input type="file" name="file">
+                                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path fill="currentColor" d="M368 224H224V80c0-8.84-7.16-16-16-16h-32c-8.84 0-16 7.16-16 16v144H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h144v144c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V288h144c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z" class=""></path>
+                                </svg>
+                            </label>
+                            <label class="et-ch_message">
+                                <textarea name="message" rows="1" cols="1"></textarea>
+                            </label>
+                            <label class="et-ch_send">
+                                <input type="submit" name="send">
+                                <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor" d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z" class=""></path>
+                                </svg>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Main Section End -->
+        <script type="text/javascript" src="../../index.js"></script>
+    </body>
+</html>

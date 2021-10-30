@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>EconomTaxi - Добавить заказ</title>
+        <link rel="icon" type="image/x-icon" href="../../favicon.png">
+        <link rel="stylesheet" href="./css/post-order.css">
+        <link rel="stylesheet" href="../../style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="et-nav">
+                <div class="et-container">
+                    <div class="et-row">
+                        <div class="et-topbar et-dfw et-alt-center">
+                            <a class="et-go_back">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512">
+                                    <path fill="currentColor" d="M25.1 247.5l117.8-116c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L64.7 256l102.2 100.4c4.7 4.7 4.7 12.3 0 17l-7.1 7.1c-4.7 4.7-12.3 4.7-17 0L25 264.5c-4.6-4.7-4.6-12.3.1-17z" class=""></path>
+                                </svg>
+                            </a>
+                            <h4>Маршрут</h4>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Main Section -->
+        <main class="et-main">
+            <form action="#" class="et-form">
+                <!-- Map -->
+                <div class="et-f_map"></div>
+                <!-- Inputs -->
+                <div class="et-container">
+                    <div class="et-row et-f_content">
+                        <div class="et-f_inputs et-dfw">
+                            <label class="et-dfw">
+                                <div class="et-fi_icon"></div>
+                                <div class="et-fi_input">
+                                    <span id="title">Откуда</span>
+                                    <input type="text" name="from">
+                                </div>
+                            </label>
+                            <label class="et-dfw">
+                                <div class="et-fi_icon"></div>
+                                <div class="et-fi_input">
+                                    <span id="title">Куда</span>
+                                    <input type="text" name="to">
+                                </div>
+                            </label>
+                            <label class="et-dfw">
+                                <div class="et-fi_icon"></div>
+                                <div class="et-fi_input">
+                                    <span id="title">Количество</span>
+                                    <input type="number" max="6" name="count">
+                                </div>
+                            </label>
+                            <label class="et-dfw">
+                                <div class="et-fi_icon"></div>
+                                <div class="et-fi_input">
+                                    <span id="title">Цена</span>
+                                    <input type="text" name="price">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="et-f_actions et-dfw">
+                            <button type="submit" class="et-fa_btn">Вперёд</button>
+                            <a class="et-fa_btn">Запланировать</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+        <!-- Main Section End -->
+        <script type="text/javascript" src="../../index.js"></script>
+    </body>
+</html>

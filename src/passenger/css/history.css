@@ -1,0 +1,81 @@
+.et-order-lists {
+    column-gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.et-order-lists li {
+    position: relative;
+    width: calc(50% - 5px);
+    padding-bottom: 10px;
+    text-align: center;
+    color: var(--gray);
+    transition: all .4s ease;
+    cursor: pointer;
+}
+.et-order-lists li.active {
+    color: var(--yellow);
+}
+.et-order-lists li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--gray);
+    border-radius: 2px;
+}
+.et-order-lists li.active::after {
+    background-color: var(--yellow);
+}
+
+.et-orders-list {
+    row-gap: 20px;
+}
+.et-ol_item {
+    width: 100%;
+    column-gap: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 2px 8px 25px -5px #9b9b9b;
+}
+.et-oli_info-wrap {
+    width: calc(70% - 10px);
+    row-gap: 5px;
+}
+.et-oliiw_item {
+    width: 100%;
+    column-gap: 10px;
+}
+.et-oliiwi_title {
+    font-size: 12px;
+    font-weight: 600;
+    width: 85px;
+}
+.et-oliiwi_value {
+    font-size: 12px;
+    width: calc(100% - 95px);
+}
+.et-oli_req {
+    width: 30%;
+}
+.et-olir_btn {
+    width: 100%;
+    padding: 10px 2px;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: var(--yellow);
+    border-radius: 4px;
+}
+.et-olir_btn.cansel{
+    background-color: var(--red);
+}
+.et-olir_btn.resume{
+    background-color: var(--gray);
+}
+.et-olir_btn.post{
+    background-color: var(--green);
+}
